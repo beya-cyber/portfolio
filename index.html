@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behailu Kelemework | Portfolio & Security Developer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: {
+                            bg: '#0a0d14',
+                            card: '#121824',
+                            border: '#1e293b',
+                            neon: '#00ffcc',
+                            purple: '#8b5cf6',
+                            text: '#94a3b8'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-cyber-bg text-slate-100 font-sans selection:bg-cyber-neon selection:text-black">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-cyber-bg/80 backdrop-blur-md border-b border-cyber-border">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-wider text-cyber-neon flex items-center gap-2">
+                <i class="fa-solid fa-shield-halved"></i> BEHAILU.K
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-cyber-text">
+                <a href="#about" class="hover:text-cyber-neon transition">About</a>
+                <a href="#skills" class="hover:text-cyber-neon transition">Skills</a>
+                <a href="#projects" class="hover:text-cyber-neon transition">Projects</a>
+                <a href="#certifications" class="hover:text-cyber-neon transition">Certifications</a>
+                <a href="#contact" class="hover:text-cyber-neon transition">Contact</a>
+            </nav>
+            <a href="#contact" class="hidden sm:inline-block px-4 py-2 border border-cyber-neon text-cyber-neon text-sm font-semibold rounded hover:bg-cyber-neon hover:text-black transition">
+                Get in Touch
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center pt-24 pb-12 px-4 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,255,204,0.05)_0,transparent_70%)] pointer-events-none"></div>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center z-10">
+            <div class="md:col-span-7 space-y-6 text-center md:text-left">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyber-card border border-cyber-border text-xs text-cyber-neon">
+                    <span class="w-2 h-2 rounded-full bg-cyber-neon animate-pulse"></span> Security-Minded Developer & Systems Contractor
+                </div>
+                <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight">
+                    Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyber-neon to-cyber-purple">Behailu Kelemework</span>
+                </h1>
+                <p class="text-cyber-text text-lg max-w-xl mx-auto md:mx-0">
+                    Building secure web applications, robust backend systems, and reliable physical security infrastructure. Certified CCTV installer and software engineering practitioner.
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
+                    <a href="#projects" class="px-6 py-3 bg-cyber-neon text-black font-semibold rounded shadow-lg shadow-cyber-neon/20 hover:bg-opacity-95 transition">
+                        View Projects
+                    </a>
+                    <a href="https://github.com/beya-cyber" target="_blank" class="px-6 py-3 border border-cyber-border hover:border-cyber-neon font-semibold rounded flex items-center gap-2 transition">
+                        <i class="fa-brands fa-github"></i> GitHub Profile
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-5 flex justify-center">
+                <div class="relative w-64 h-64 sm:w-80 sm:h-80 rounded-2xl p-1 bg-gradient-to-b from-cyber-neon to-cyber-purple shadow-2xl">
+                    <div class="w-full h-full bg-cyber-card rounded-2xl overflow-hidden flex items-center justify-center">
+                        <img src="5809663040394301003_99.jpg" alt="Behailu Kelemework" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-cyber-card/40 border-y border-cyber-border">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center"><span class="text-cyber-neon">//</span> About Me</h2>
+            <div class="bg-cyber-card border border-cyber-border p-8 rounded-xl shadow-lg space-y-4 text-cyber-text leading-relaxed">
+                <p>
+                    I am a security-minded Full-Stack and Systems Developer based in Addis Ababa, Ethiopia, with practical experience building secure applications and physical security infrastructure. 
+                </p>
+                <p>
+                    Alongside software development—including building platforms for the Information Network Security Agency (INSA)—I am a certified CCTV installer and physical security contractor with hands-on expertise implementing alarms, access control systems, and network hardware.
+                </p>
+                <p>
+                    Currently pursuing a Bachelor of Science in Health Science at the University of the People, I combine technical discipline with community-facing competencies like certified counseling.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="py-20 max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-12 text-center"><span class="text-cyber-neon">//</span> Technical Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-cyber-card border border-cyber-border p-6 rounded-xl">
+                <div class="text-cyber-neon text-2xl mb-4"><i class="fa-solid fa-code"></i></div>
+                <h3 class="text-lg font-bold mb-2">Programming & Web</h3>
+                <p class="text-cyber-text text-sm">C#, .NET, Python, SQL, HTML5, CSS3, JavaScript (Udacity Certified Fundamentals)</p>
+            </div>
+            <div class="bg-cyber-card border border-cyber-border p-6 rounded-xl">
+                <div class="text-cyber-neon text-2xl mb-4"><i class="fa-solid fa-shield-cat"></i></div>
+                <h3 class="text-lg font-bold mb-2">Systems & Security</h3>
+                <p class="text-cyber-text text-sm">CCTV Installation & Configuration, Alarm Systems, Access Control Systems, Network Security, Ethical Hacking</p>
+            </div>
+            <div class="bg-cyber-card border border-cyber-border p-6 rounded-xl">
+                <div class="text-cyber-neon text-2xl mb-4"><i class="fa-solid fa-toolbox"></i></div>
+                <h3 class="text-lg font-bold mb-2">Tools & Workflow</h3>
+                <p class="text-cyber-text text-sm">GitHub, Docker, Linux, Git Version Control</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-cyber-card/40 border-y border-cyber-border">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center"><span class="text-cyber-neon">//</span> Featured Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-cyber-card border border-cyber-border rounded-xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs px-3 py-1 rounded bg-cyber-border text-cyber-neon">.NET / React / Security</span>
+                            <a href="https://github.com/beya-cyber/INSA-project" target="_blank" class="text-cyber-text hover:text-cyber-neon"><i class="fa-brands fa-github text-xl"></i></a>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">National Scam Fraud Report — INSA</h3>
+                        <p class="text-cyber-text text-sm mb-4">
+                            Designed and developed a high-security fraud reporting and case investigation portal tailored for security standards. Implemented strict access controls and secure data handling workflows.
+                        </p>
+                    </div>
+                    <a href="https://github.com/beya-cyber/INSA-project" target="_blank" class="inline-flex items-center gap-2 text-sm text-cyber-neon font-semibold hover:underline">
+                        View Repository <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-cyber-card border border-cyber-border rounded-xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs px-3 py-1 rounded bg-cyber-border text-cyber-neon">Physical Security</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Physical Security & Access Control Deployments</h3>
+                        <p class="text-cyber-text text-sm mb-4">
+                            Deployed and configured commercial CCTV surveillance systems, alarm networks, and automated access control hardware as an independent security solutions contractor.
+                        </p>
+                    </div>
+                    <span class="text-sm text-cyber-text italic">Private / Contractor Portfolio</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-12 text-center"><span class="text-cyber-neon">//</span> Certifications & Education</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="p-4 rounded-lg bg-cyber-card border border-cyber-border">
+                <h4 class="font-bold text-sm">Bachelor of Science in Health Science</h4>
+                <p class="text-xs text-cyber-text mt-1">University of the People (In Progress)</p>
+            </div>
+            <div class="p-4 rounded-lg bg-cyber-card border border-cyber-border">
+                <h4 class="font-bold text-sm">Programming Fundamentals (HTML, CSS, JS)</h4>
+                <p class="text-xs text-cyber-text mt-1">Udacity</p>
+            </div>
+            <div class="p-4 rounded-lg bg-cyber-card border border-cyber-border">
+                <h4 class="font-bold text-sm">Certified CCTV Installer & Configuration</h4>
+                <p class="text-xs text-cyber-text mt-1">Security Solutions Practice</p>
+            </div>
+            <div class="p-4 rounded-lg bg-cyber-card border border-cyber-border">
+                <h4 class="font-bold text-sm">Counseling Skills Diploma</h4>
+                <p class="text-xs text-cyber-text mt-1">Oxford Home Study Centre</p>
+            </div>
+            <div class="p-4 rounded-lg bg-cyber-card border border-cyber-border">
+                <h4 class="font-bold text-sm">Cybersecurity Essentials & Ethical Hacker</h4>
+                <p class="text-xs text-cyber-text mt-1">Cisco</p>
+            </div>
+            <div class="p-4 rounded-lg bg-cyber-card border border-cyber-border">
+                <h4 class="font-bold text-sm">Cybersecurity Fundamentals</h4>
+                <p class="text-xs text-cyber-text mt-1">IBM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-cyber-card/40 border-t border-cyber-border">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4"><span class="text-cyber-neon">//</span> Let's Connect</h2>
+            <p class="text-cyber-text mb-8">Feel free to reach out for opportunities, collaborations, or security contracting.</p>
+            <div class="flex flex-wrap justify-center gap-6">
+                <a href="mailto:tazabitech@gmail.com" class="px-6 py-3 bg-cyber-card border border-cyber-border rounded-lg hover:border-cyber-neon flex items-center gap-2 transition">
+                    <i class="fa-solid fa-envelope text-cyber-neon"></i> tazabitech@gmail.com
+                </a>
+                <a href="tel:+251953908677" class="px-6 py-3 bg-cyber-card border border-cyber-border rounded-lg hover:border-cyber-neon flex items-center gap-2 transition">
+                    <i class="fa-solid fa-phone text-cyber-neon"></i> +251 953 908 677
+                </a>
+                <a href="https://linkedin.com/in/behailu-kelemework-6b609b430" target="_blank" class="px-6 py-3 bg-cyber-card border border-cyber-border rounded-lg hover:border-cyber-neon flex items-center gap-2 transition">
+                    <i class="fa-brands fa-linkedin text-cyber-neon"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-cyber-border text-center text-xs text-cyber-text">
+        <p>&copy; 2026 Behailu Kelemework. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
